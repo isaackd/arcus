@@ -11,18 +11,18 @@
 
 <script lang="ts">
     import maskIcon from "../assets/mask.svg";
+    import downloadIcon from "../assets/download.svg";
 	import brushIcon from "../assets/brush.svg";
 	import propertiesIcon from "../assets/properties.svg";
 
     import AppearanceMenu from "./AppearanceMenu.svelte";
-    import { slide } from "svelte/transition";
-    import { quintOut } from "svelte/easing";
     import PropertiesMenu from "./PropertiesMenu.svelte";
     import MaskMenu from "./MaskMenu.svelte";
 
     let state: ContentState = ContentState.Home;
     export let config: ArcusConfig;
     export let updateWordcloud: () => void;
+    export let handleDownload: () => void;
 
     function handleScaleChange(ev: InputEvent) {
         const target = ev.target as HTMLSelectElement;
@@ -53,13 +53,16 @@
                 </select>
             </div>
             <div id="buttons">
-                <button on:click={() => state = ContentState.Mask}>
+                <!-- <button on:click={() => state = ContentState.Mask}>
                     <img src={maskIcon} alt="">
+                </button> -->
+                <button title="Download your Wordcloud" on:click={handleDownload}>
+                    <img src={downloadIcon} width="24" alt="">
                 </button>
-                <button on:click={() => state = ContentState.Appearance}>
+                <button title="Edit appearance" on:click={() => state = ContentState.Appearance}>
                     <img src={brushIcon} alt="">
                 </button>
-                <button on:click={() => state = ContentState.Properties}>
+                <button title="Edit properties" on:click={() => state = ContentState.Properties}>
                     <img src={propertiesIcon} alt="">
                 </button>
             </div>
@@ -68,7 +71,7 @@
     </div>
     <AppearanceMenu bind:contentState={state} bind:config={config} />
     <PropertiesMenu bind:contentState={state} bind:config={config} />
-    <MaskMenu bind:contentState={state} bind:config={config} />
+    <!-- <MaskMenu bind:contentState={state} bind:config={config} /> -->
 </div>
 
 <style>

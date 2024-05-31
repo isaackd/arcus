@@ -103,6 +103,13 @@
 		});
 	}
 
+	function downloadImage() {
+        const link = document.createElement('a');
+        link.download = 'filename.png';
+        link.href = canvas.toDataURL()
+        link.click();
+    }
+
 	onMount(async () => {
 		await init();
 		initializedWasm = true;
@@ -126,7 +133,7 @@
 		<canvas id="wordcloud-canvas" bind:this={canvas}></canvas>
 	</div>
 
-	<Content bind:config={config} updateWordcloud={updateWordcloud} />
+	<Content bind:config={config} handleDownload={downloadImage} updateWordcloud={updateWordcloud} />
 </main>
 
 <style>

@@ -8,7 +8,6 @@
     export let contentState: ContentState;
 
     function handleBack() {
-        console.log("Set it")
         contentState = ContentState.Home;
     }
 </script>

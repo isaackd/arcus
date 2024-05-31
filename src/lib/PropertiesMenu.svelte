@@ -1,7 +1,7 @@
 <script lang="ts">
     import MenuHeader from "./MenuHeader.svelte";
     import Property from "./Property.svelte";
-    import icon from "../assets/brush.svg";
+    import icon from "../assets/properties.svg";
 
     import previousIcon from "../assets/previous.svg";
     import nextIcon from "../assets/next.svg";
@@ -66,7 +66,7 @@
                     value={config.properties.regex}
                     on:input={e => handlePropertyChange(e, "regex", false)}
                 >
-                <textarea class="code" name="" id="" rows="10" value="Test 123 your regex here"></textarea>
+                <!-- <textarea class="code" name="" id="" rows="10" value="Test 123 your regex here"></textarea> -->
             </div>
         </Property>
 
@@ -76,7 +76,7 @@
                 id=""
                 cols="30"
                 rows="10"
-                on:input={e => handlePropertyChange(e, "excludeWords", false)}>
+                on:change={e => handlePropertyChange(e, "excludeWords", false)}>
 {config.properties.excludeWords}
             </textarea>
 

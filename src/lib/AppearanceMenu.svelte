@@ -59,17 +59,17 @@
             <select id="font-select">
                 <option value="Ubuntu">Ubuntu</option>
             </select>
-            <div class="nav-buttons">
+            <!-- <div class="nav-buttons">
                 <button class="icon-button" title="Previous font">
                     <img src={previousIcon} alt="">
                 </button>
                 <button class="icon-button" title="Next font">
                     <img src={nextIcon} alt="">
                 </button>
-            </div>
+            </div> -->
         </Property>
 
-        <Property title="Color function" description="The method used to color the wordcloud">
+        <!-- <Property title="Color function" description="The method used to color the wordcloud">
             <select>
                 <option selected value="rainbow">Rainbow</option>
                 <option value="monochrome">Monochrome</option>
@@ -78,8 +78,7 @@
             <button class="icon-button" title="Open code editor">
                 <img src={codeIcon} alt="">
             </button>
-
-        </Property>
+        </Property> -->
 
         <Property title="Background color" description="The background color of the image">
             <input
