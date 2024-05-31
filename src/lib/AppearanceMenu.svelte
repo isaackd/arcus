@@ -7,7 +7,7 @@
     import nextIcon from "../assets/next.svg";
     import codeIcon from "../assets/code.svg";
     import { ContentState } from "./Content.svelte";
-    import type { ArcusConfig } from "../App.svelte";
+    import type { ArcusConfig } from "../routes/+page.svelte";
 
     let relativeScaling: string = "50";
     let backgroundColor: string = "000000";

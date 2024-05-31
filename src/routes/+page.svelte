@@ -37,12 +37,12 @@
 </script>
 
 <script lang="ts">
-	import init, { make_wordcloud } from "./wcloud_wasm.js";
+	import init, { make_wordcloud } from "../wcloud_wasm.js";
 	import { onMount } from "svelte";
 
-	import logo from "./assets/logo.svg";
-	import Content from "./lib/Content.svelte";
-    import MaskMenu from "./lib/MaskMenu.svelte";
+	import logo from "../assets/logo.svg";
+	import Content from "../lib/Content.svelte";
+    import MaskMenu from "../lib/MaskMenu.svelte";
 
 	let canvas: HTMLCanvasElement;
 	let initializedWasm = false;
@@ -122,6 +122,7 @@
 	});
 </script>
 
+<div id="app">
 <header>
 	<img id="logo" src={logo} alt="Icon of a cloud">
 	<h2 id="title">Arcus</h2>
@@ -136,9 +137,12 @@
 	<Content bind:config={config} handleDownload={downloadImage} updateWordcloud={updateWordcloud} />
 </main>
 
+</div>
+
 <style>
 	header {
 		display: flex;
 		gap: 4px;
 	}
+	
 </style>

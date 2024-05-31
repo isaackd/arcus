@@ -6,7 +6,7 @@
         Properties,
     };
 
-    import type { ArcusConfig } from "../App.svelte";
+    import type { ArcusConfig } from "../routes/+page.svelte";
 </script>
 
 <script lang="ts">
