@@ -1,0 +1,119 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/assets/arrow_back.svg": {
+    "file": "app/immutable/assets/arrow_back.581b1309.svg",
+    "src": "src/lib/assets/arrow_back.svg"
+  },
+  "src/lib/assets/brush.svg": {
+    "file": "app/immutable/assets/brush.f3b80138.svg",
+    "src": "src/lib/assets/brush.svg"
+  },
+  "src/lib/assets/code.svg": {
+    "file": "app/immutable/assets/code.6cdd921d.svg",
+    "src": "src/lib/assets/code.svg"
+  },
+  "src/lib/assets/download.svg": {
+    "file": "app/immutable/assets/download.1d59fe5c.svg",
+    "src": "src/lib/assets/download.svg"
+  },
+  "src/lib/assets/logo.svg": {
+    "file": "app/immutable/assets/logo.4f42b7db.svg",
+    "src": "src/lib/assets/logo.svg"
+  },
+  "src/lib/assets/mask.svg": {
+    "file": "app/immutable/assets/mask.730f584f.svg",
+    "src": "src/lib/assets/mask.svg"
+  },
+  "src/lib/assets/next.svg": {
+    "file": "app/immutable/assets/next.dfbbb50c.svg",
+    "src": "src/lib/assets/next.svg"
+  },
+  "src/lib/assets/previous.svg": {
+    "file": "app/immutable/assets/previous.b93df2f5.svg",
+    "src": "src/lib/assets/previous.svg"
+  },
+  "src/lib/assets/properties.svg": {
+    "file": "app/immutable/assets/properties.e6afad11.svg",
+    "src": "src/lib/assets/properties.svg"
+  },
+  "src/routes/+layout.css": {
+    "file": "app/immutable/assets/_layout.4702bebb.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "isEntry": true,
+    "src": "src/routes/+layout.js"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "app/immutable/assets/_layout.4702bebb.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.css": {
+    "file": "app/immutable/assets/_page.6f98685e.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.svelte": {
+    "assets": [
+      "app/immutable/assets/logo.4f42b7db.svg",
+      "app/immutable/assets/download.1d59fe5c.svg",
+      "app/immutable/assets/brush.f3b80138.svg",
+      "app/immutable/assets/properties.e6afad11.svg",
+      "app/immutable/assets/arrow_back.581b1309.svg"
+    ],
+    "css": [
+      "app/immutable/assets/_page.6f98685e.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  }
+}

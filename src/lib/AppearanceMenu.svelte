@@ -1,11 +1,11 @@
 <script lang="ts">
     import MenuHeader from "./MenuHeader.svelte";
     import Property from "./Property.svelte";
-    import icon from "../assets/brush.svg";
+    import icon from "$lib/assets/brush.svg";
 
-    import previousIcon from "../assets/previous.svg";
-    import nextIcon from "../assets/next.svg";
-    import codeIcon from "../assets/code.svg";
+    import previousIcon from "$lib/assets/previous.svg";
+    import nextIcon from "$lib/assets/next.svg";
+    import codeIcon from "$lib/assets/code.svg";
     import { ContentState } from "./Content.svelte";
     import type { ArcusConfig } from "../routes/+page.svelte";
 

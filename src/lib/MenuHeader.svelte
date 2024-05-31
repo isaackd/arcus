@@ -1,5 +1,5 @@
 <script lang="ts">
-    import backIcon from "../assets/arrow_back.svg";
+    import backIcon from "$lib/assets/arrow_back.svg";
     import { ContentState } from "./Content.svelte";
 
     export let title: string;

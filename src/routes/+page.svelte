@@ -40,7 +40,7 @@
 	import init, { make_wordcloud } from "../wcloud_wasm.js";
 	import { onMount } from "svelte";
 
-	import logo from "../assets/logo.svg";
+	import logo from "$lib/assets/logo.svg";
 	import Content from "../lib/Content.svelte";
     import MaskMenu from "../lib/MaskMenu.svelte";
 

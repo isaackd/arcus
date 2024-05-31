@@ -10,10 +10,10 @@
 </script>
 
 <script lang="ts">
-    import maskIcon from "../assets/mask.svg";
-    import downloadIcon from "../assets/download.svg";
-	import brushIcon from "../assets/brush.svg";
-	import propertiesIcon from "../assets/properties.svg";
+    import maskIcon from "$lib/assets/mask.svg";
+    import downloadIcon from "$lib/assets/download.svg";
+	import brushIcon from "$lib/assets/brush.svg";
+	import propertiesIcon from "$lib/assets/properties.svg";
 
     import AppearanceMenu from "./AppearanceMenu.svelte";
     import PropertiesMenu from "./PropertiesMenu.svelte";

@@ -1,0 +1,132 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js"
+    ],
+    "file": "app/immutable/entry/app.73880205.js",
+    "imports": [
+      "_scheduler.92d9c31b.js",
+      "_index.0055131f.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/app.js"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.css": {
+    "file": "app/immutable/assets/0.4702bebb.css",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.css"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "css": [
+      "app/immutable/assets/0.4702bebb.css"
+    ],
+    "file": "app/immutable/nodes/0.15b5ea66.js",
+    "imports": [
+      "_scheduler.92d9c31b.js",
+      "_index.0055131f.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "app/immutable/nodes/1.153a80fd.js",
+    "imports": [
+      "_scheduler.92d9c31b.js",
+      "_index.0055131f.js",
+      "_entry.fc1871ae.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.css": {
+    "file": "app/immutable/assets/2.6f98685e.css",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.css"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "assets": [
+      "app/immutable/assets/wcloud_wasm_bg.c8b4f632.wasm",
+      "app/immutable/assets/logo.4f42b7db.svg",
+      "app/immutable/assets/download.1d59fe5c.svg",
+      "app/immutable/assets/brush.f3b80138.svg",
+      "app/immutable/assets/properties.e6afad11.svg",
+      "app/immutable/assets/arrow_back.581b1309.svg"
+    ],
+    "css": [
+      "app/immutable/assets/2.6f98685e.css"
+    ],
+    "file": "app/immutable/nodes/2.6182cac4.js",
+    "imports": [
+      "_scheduler.92d9c31b.js",
+      "_index.0055131f.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js"
+  },
+  "_entry.fc1871ae.js": {
+    "file": "app/immutable/chunks/entry.fc1871ae.js",
+    "imports": [
+      "_scheduler.92d9c31b.js"
+    ]
+  },
+  "_index.0055131f.js": {
+    "file": "app/immutable/chunks/index.0055131f.js",
+    "imports": [
+      "_scheduler.92d9c31b.js"
+    ]
+  },
+  "_scheduler.92d9c31b.js": {
+    "file": "app/immutable/chunks/scheduler.92d9c31b.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "app/immutable/entry/start.b241022c.js",
+    "imports": [
+      "_entry.fc1871ae.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js"
+  },
+  "src/lib/assets/arrow_back.svg": {
+    "file": "app/immutable/assets/arrow_back.581b1309.svg",
+    "src": "src/lib/assets/arrow_back.svg"
+  },
+  "src/lib/assets/brush.svg": {
+    "file": "app/immutable/assets/brush.f3b80138.svg",
+    "src": "src/lib/assets/brush.svg"
+  },
+  "src/lib/assets/code.svg": {
+    "file": "app/immutable/assets/code.6cdd921d.svg",
+    "src": "src/lib/assets/code.svg"
+  },
+  "src/lib/assets/download.svg": {
+    "file": "app/immutable/assets/download.1d59fe5c.svg",
+    "src": "src/lib/assets/download.svg"
+  },
+  "src/lib/assets/logo.svg": {
+    "file": "app/immutable/assets/logo.4f42b7db.svg",
+    "src": "src/lib/assets/logo.svg"
+  },
+  "src/lib/assets/mask.svg": {
+    "file": "app/immutable/assets/mask.730f584f.svg",
+    "src": "src/lib/assets/mask.svg"
+  },
+  "src/lib/assets/next.svg": {
+    "file": "app/immutable/assets/next.dfbbb50c.svg",
+    "src": "src/lib/assets/next.svg"
+  },
+  "src/lib/assets/previous.svg": {
+    "file": "app/immutable/assets/previous.b93df2f5.svg",
+    "src": "src/lib/assets/previous.svg"
+  },
+  "src/lib/assets/properties.svg": {
+    "file": "app/immutable/assets/properties.e6afad11.svg",
+    "src": "src/lib/assets/properties.svg"
+  },
+  "src/wcloud_wasm_bg.wasm": {
+    "file": "app/immutable/assets/wcloud_wasm_bg.c8b4f632.wasm",
+    "src": "src/wcloud_wasm_bg.wasm"
+  }
+}
